@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Cherish:regular&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:regular,700&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Kanit:regular,italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext);
+/* &display=swap&subset=cyrillic-ext */
+
+@font-face {
+	font-family: "Esmeralda Pro";
+	src: url("../fonts/EsmeraldaPro/EsmeraldaPro.woff2") format("woff2"),
+		url("../fonts/EsmeraldaPro/EsmeraldaPro.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Laica A";
+	src: url("../fonts/LaicaA-Regular/LaicaA-Regular.woff2") format("woff2"),
+		url("../fonts/LaicaA-Regular/LaicaA-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Kanit", "Arial", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+/* Шрифты */
+
+.cherish {
+	font-family: "Cherish", "Dancing Script", cursive;
+}
+.dancing_script {
+	font-family: "Dancing Script", "Cherish", cursive;
+}
+.esmeralda_pro {
+	font-family: "Esmeralda Pro", serif;
+}
+.laica_a {
+	font-family: "Laica A", serif;
+}
+
+/* -------------------------------------- */
+
+.border {
+	background-color: aqua;
+	width: 800px;
+	min-height: 600px;
+	border: 2px solid black;
+}
+.border_h {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+}
+.border_img {
+	display: block;
+	width: 690px;
+	margin: 0 auto;
+	border: 20px ridge #2ba434;
+	border-radius: 40px;
+}
+.border_p {
+	font-size: 26px;
+	text-align: center;
+	padding-top: 25px;
+	color: darkred;
+	font-weight: 700;
+}
+
+.outline_test {
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #ffff00;
+	outline: 5px solid #000;
+	padding: 10px;
+}
+.outline_p {
+	width: 900px;
+	outline: 2px solid #000;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.outline_div {
+	margin-bottom: 15px;
+	outline: 5px ridge orange;
+}
+.outline_a {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	outline: 2px solid #000;
+}
+.outline_img {
+	outline: 5px dotted red;
+}
+.outline_span {
+	outline: 5px dashed red;
+}
+
+.border_radius {
+	width: auto;
+	height: auto;
+	background-color: skyblue;
+}
+.border_radius1 {
+	width: 400px;
+	height: 400px;
+	background-color: greenyellow;
+	border-radius: 50%;
+}
+.border_radius1 a {
+	display: block;
+	visibility: hidden;
+}
+.border_radius2 {
+	width: 100px;
+	height: 100px;
+	border-bottom: 13px groove #c21ba6;
+	border-radius: 40px 0px 100px 40px;
+	box-shadow: inset 3px 3px 10px 10px;
+}
+.border_radisu3 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 228px 228px;
+	border-color: #0066ff transparent;
+}
+.border_radisu4 {
+	width: 400px;
+	height: 400px;
+	background-color: hotpink;
+	border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+}
+.radius_span {
+	width: 700px;
+	height: 200px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: lightcoral;
+	display: inline-block;
+}
+/* ---------------------- */
+.home_exercise {
+}
+.exercise_1 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #e52b50;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.exercise_1 img {
+	padding-right: 25px;
+}
+.exercise_2 {
+	background-color: black;
+	color: red;
+	max-width: 75%;
+	opacity: 0.5;
+	border: 3px dashed #aaa;
+	margin-bottom: 25px;
+}
+.exercise_3 {
+	margin-bottom: 25px;
+}
+.exercise3_span {
+	border: 3px solid #000;
+	display: block;
+	background-color: royalblue;
+	font-weight: 700;
+	font-style: oblique;
+	font-size: 20px;
+}
+.exercise_4 {
+	margin-bottom: 50px;
+}
+.exercise4_div {
+	width: 500px;
+	height: 500px;
+	background-color: slateblue;
+	margin: 0 auto;
+	border-bottom: 5px solid red;
+	border-top: 5px dashed red;
+	border-left: 5px dotted red;
+	border-right: 5px double red;
+}
+.exercise_5 {
+	text-align: center;
+}
+.exercise5_link {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	background-color: tomato;
+	margin: 0 auto;
+	border: 3px solid #000;
+	font-size: 50px;
+	box-shadow: 7px -5px 10px 0px #4b0082, 11px -9px 10px 0px #0000ff, 16px -14px 10px 0px #00ff00,
+		20px -17px 10px 0px #ffff00, 24px -19px 10px 0px #ff7f00, 27px -23px 10px 0px #ff0000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5,
+		-3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+		-6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+.link_5 {
+}
